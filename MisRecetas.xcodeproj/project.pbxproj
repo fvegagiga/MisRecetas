@@ -12,6 +12,8 @@
 		F848FBDC1F2F859000F914BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F848FBDA1F2F859000F914BE /* Main.storyboard */; };
 		F848FBDE1F2F859000F914BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F848FBDD1F2F859000F914BE /* Assets.xcassets */; };
 		F848FBE11F2F859000F914BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F848FBDF1F2F859000F914BE /* LaunchScreen.storyboard */; };
+		F848FBE91F2F873500F914BE /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F848FBE81F2F873500F914BE /* Recipe.swift */; };
+		F89317691F30E4A60088DAB3 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89317681F30E4A60088DAB3 /* RecipeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F848FBDD1F2F859000F914BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F848FBE01F2F859000F914BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F848FBE21F2F859000F914BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F848FBE81F2F873500F914BE /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		F89317681F30E4A60088DAB3 /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				F848FBDD1F2F859000F914BE /* Assets.xcassets */,
 				F848FBDF1F2F859000F914BE /* LaunchScreen.storyboard */,
 				F848FBE21F2F859000F914BE /* Info.plist */,
+				F848FBE81F2F873500F914BE /* Recipe.swift */,
+				F89317681F30E4A60088DAB3 /* RecipeCell.swift */,
 			);
 			path = MisRecetas;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F848FBE91F2F873500F914BE /* Recipe.swift in Sources */,
 				F848FBD91F2F859000F914BE /* ViewController.swift in Sources */,
 				F848FBD71F2F859000F914BE /* AppDelegate.swift in Sources */,
+				F89317691F30E4A60088DAB3 /* RecipeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +312,7 @@
 				F848FBE71F2F859000F914BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
